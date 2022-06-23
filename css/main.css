@@ -39,7 +39,7 @@ header {
 }
 
 #desktop-nav.show,
-#desktop-nav ul.show{
+#desktop-nav ul.show {
   display: block;
 }
 
@@ -290,6 +290,12 @@ li {
   cursor: pointer;
 }
 
+.menu-visible li {
+  margin: 0 8px;
+  display: flex;
+  border-bottom: 2px solid #d2d5db;
+}
+
 .project-stacks li:hover {
   background: rgba(0, 0, 0, 0.349);
 }
@@ -443,12 +449,6 @@ textarea {
   padding-top: 40px;
   background-color: #3c3a39;
   height: 90vh;
-}
-
-.menu-visible li {
-  margin: 0 8px;
-  display: flex;
-  border-bottom: 2px solid #d2d5db;
 }
 
 .menu-visible li a {
