@@ -292,8 +292,15 @@ li {
 
 .menu-visible li {
   margin: 0 8px;
+  padding: 15px 8px;
   display: flex;
-  border-bottom: 2px solid #d2d5db;
+  border-bottom: 1px solid #d2d5db;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
 }
 
 .project-stacks li:hover {
@@ -446,9 +453,9 @@ textarea {
 }
 
 .menu-visible nav {
-  padding-top: 40px;
+  padding: 100px 1px;
   background-color: #3c3a39;
-  height: 90vh;
+  height: 100vh;
 }
 
 .menu-visible li a {
@@ -458,9 +465,9 @@ textarea {
 .close-btn {
   display: block;
   position: absolute;
-  top: 20px;
+  top: 40px;
   right: 24px;
-  font-size: 26px;
+  font-size: 18px;
   width: auto;
   background-color: transparent;
   border-width: inherit;
